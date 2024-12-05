@@ -1,0 +1,401 @@
+/* *{
+  width: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+.sp {
+display: grid;
+grid-template-columns: 17% 83%;
+}
+.sidebar {
+display: grid;
+grid-template-columns: 40% ;
+background-color: #000000;
+width: 100%;
+height: 100%;
+}
+  .logo_img {
+width: 100%;
+margin-bottom: 10%;
+margin-left: 30px;
+margin-top: 20px;
+}
+  .home_img{
+      width: 60%;
+      margin-top: -10%;
+  }
+  .home{
+      color: white;
+      padding-top: -10%;
+      font-weight: 800;
+  }
+  .home1 {
+color: white;
+margin-top: 40px;
+margin-left: 40%;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 600;
+display: flex;
+}
+  .buttons {
+display: grid;
+grid-template-columns: 60% 160%;
+grid-template-rows: 30% 30% 30%;
+margin-left: 40%;
+margin-top: -10%;
+}
+.sidebar1 {
+display: grid;
+grid-template-columns: 35% 188%;
+grid-template-rows: 20% 20% 0%;
+margin-top: -10%;
+}
+.icon_img {
+width: 160%;
+margin: 20px;
+}
+.text {
+color: white;
+margin-left: 35%;
+margin-top: -89%;
+display: flex;
+flex-direction: column;
+gap: 10px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 800;
+}
+  .text1{
+      margin: 4%;
+      width: fit-content;
+  }
+  .download{
+      display: grid;
+      grid-template-columns: 30% 70%;
+  }
+  
+  .inst{
+      color: white;
+      margin-top: 5%
+     
+  }
+  .sidebar2 {
+margin-top: 5%;
+}
+  .arrow{
+      width: 10%;
+  }
+  .lside {
+width: 100%;
+}
+.rside {
+width: 100%;
+background-color: #202020;
+}
+  .navbar{
+      display: grid;
+      grid-template-columns: 88% 20%;
+  }
+  .user{
+      width: 50%;
+  }
+  .text2{
+      font-size: 27px;
+      color: white;
+      margin-top: 5%;
+      margin-left: 3%;
+      margin-bottom: 4%;
+  }
+  .box{
+      display: grid;
+      grid-template-columns: 25% 25% 25% 25%;
+  }
+  .liked{
+      display: grid;
+      grid-template-columns: 30% 60%;
+      background-color: #303030;
+      width: 90%;
+      margin: 5%;
+  }
+  .l{
+      color: white;
+      margin-top: 10%;
+  }
+  .box2{
+      display: grid;
+      grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+  }
+  .poster {
+      display: grid;
+      grid-template-rows: 90% 10%;
+      background-color: #303030;
+      width: 85%;
+      margin: 20%
+  }
+  .title{
+      color: white;
+      font-size: 10px;
+      margin-top: 3px;
+      margin-left: 10px;
+      font-family: 'Graphik', sans-serif;
+      font-size: 15px;
+  }
+  .img{
+      margin-left: 10px;
+      margin-top: 10px;
+  }
+  .bottom{
+      display: grid;
+      grid-template-columns:30% 50% 20%;
+      background-color: #181818;
+  }
+  .name{
+      color: white;
+      align-content: center;
+      width: 65%;
+      margin-left: -12%;
+  }
+  .left{
+      display: grid;
+      grid-template-columns: 30% 50% 20%;
+      width: 80%;
+      height: fit-content;
+  }
+  .bottom_img{
+      width: 40%;
+      margin: 10% 12%;
+  }
+  .like_img{
+      width:33%;
+      margin-left: -120%;
+      margin-top: 30%;
+  }
+  .music_player{
+      width: 100%;
+  }
+  .right_option{
+      width: 70%;
+      margin-top: 11%;
+      margin-left: 27%
+  }
+  .liked {
+    width: 80%;
+  }
+  .poster {
+    width: 90%;
+  }
+  .l{
+    font-size: larger;
+    font-family: 'Graphik', sans-serif;
+    font-weight:700;
+  }
+  .text2{
+    font-size: 50px;
+  } */
+
+  /* General Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Grid Layout for Main Container */
+.sp {
+  display: grid;
+  grid-template-columns: 17% 83%;
+  height: 100vh;
+}
+
+/* Sidebar Styling */
+.sidebar {
+  background-color: #000000;
+  padding: 20px 10px;
+}
+
+.logo_img {
+  width: 80%;
+  margin: 20px auto;
+  display: block;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.home_img {
+  width: 24px;
+  margin-right: 10px;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.sidebar1 {
+  margin-top: 30px;
+}
+
+.icon_img {
+  width: 24px;
+  margin-right: 10px;
+}
+
+.home1 {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.text {
+  color: white;
+  margin-top: 40px;
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.text1 {
+  margin-left: 15px;
+}
+
+.sidebar2 .buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.inst {
+  color: white;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+/* Right-Side Styling */
+.rside {
+  background-color: #202020;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow {
+  width: 25px;
+}
+
+.user {
+  width: 40px;
+}
+
+.text2 {
+  color: white;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.liked {
+  display: flex;
+  align-items: center;
+  background-color: #303030;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.liked img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.l {
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.box2 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.poster {
+  background-color: #303030;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.poster img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.title {
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 8px;
+}
+
+/* Bottom Player Section */
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #181818;
+  padding: 10px 20px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bottom_img {
+  width: 50px;
+}
+
+.name {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.like_img {
+  width: 20px;
+  cursor: pointer;
+}
+
+.center .music_player {
+  width: 100%;
+}
+
+.right .right_option {
+  width: 40px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+}
+
